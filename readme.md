@@ -111,7 +111,7 @@ else:
 6
 even number
 ```
-# 2.Program to find the maximum of the number 
+# 2.Program to find the maximum  and minimum number of the numbers 
 ```
 num=[1,6,78, 89 ,54 ]
 maximum =num[0]
@@ -202,6 +202,32 @@ else:
 ```
 enter the hour 55
 the gross pay is 2200
+```
+# To compute the gross pay of a user with min 35 hours and overtime 
+```
+try:
+    overtime_pay =0
+    hours =int(input('enter the numbe :'))
+    rate =10
+    
+    if hours>35:
+        overtime =hours-35
+        overtime_pay = overtime*(rate/2)
+    grosspay=(35*rate)+(overtime_pay)
+    print('the gross pay is',grosspay )
+    
+except :
+    print(" enter the integr value")
+```
+## Output
+```
+enter a number : 5
+the fabinocci
+0
+1
+1
+2
+3
 ```
 
 
