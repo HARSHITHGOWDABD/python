@@ -203,7 +203,7 @@ else:
 enter the hour 55
 the gross pay is 2200
 ```
-# To compute the gross pay of a user with min 35 hours and overtime 
+# 6.To compute the gross pay of a user with min 35 hours and overtime 
 ```
 try:
     overtime_pay =0
@@ -221,13 +221,8 @@ except :
 ```
 ## Output
 ```
-enter a number : 5
-the fabinocci
-0
-1
-1
-2
-3
+enter the numbe :76
+the gross pay is 555.0
 ```
 
 
