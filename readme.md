@@ -179,5 +179,30 @@ the fabinocci
 2
 3
 ```
+# 5. To Compute the gross pay of the user using exception handling
+```
+eries_num =int (input('enter a number : '))
+a,b=0,1
+count =0
+
+if(series_num<0):
+    print(" its a negative number ")
+
+elif series_num==1:
+    print( a )
+    
+else:
+    print('the fabinocci')
+    while count <series_num:
+        print(a)
+        a,b=b,b+a
+        count=count+1
+```
+## Output
+```
+enter the hour 55
+the gross pay is 2200
+```
+
 
 
